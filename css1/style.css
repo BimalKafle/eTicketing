@@ -1,0 +1,23 @@
+
+	input[type="checkbox"]{
+		visibility:hidden;
+	}
+	label{
+
+	height:30px;
+	width:30px;
+	background-color:#f44;
+	text-align:center;
+	border-radius:20%;
+	text-shadow:10px;
+	border:0.5px solid black;
+	box-shadow: 10px 10px 5px #888888;
+	}
+	input[type="checkbox"]:checked + label{
+	  background:#fff;
+      -webkit-animation-name: rubberBand;
+	  animation-name: rubberBand;
+      animation-duration: 450ms;
+      animation-fill-mode: both;
+	}
+
